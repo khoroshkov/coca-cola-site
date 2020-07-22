@@ -50,7 +50,7 @@ const myRand = () => {
 for (let i = 0; i < 50; i++) {
   const delay = Math.random() + "s";
   const el = document.createElement("img");
-  el.src = "https://github.com/khoroshkov/coca-cola-site/blob/master/assets/img/Star.PNG";
+  el.src = "../assets/img/Star.PNG";
   el.className = "glitter-star";
   el.style.top = myRand() + "%";
   el.style.right = myRand() + "%";
