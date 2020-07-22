@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/img/favicon (2).ico" type="image/x-icon" />
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Coca-Cola website | by Nick Khoroshkov</title>
@@ -11,36 +12,16 @@
     <div class="scrolling-container">
       <section id="section-1">
         <div class="snowflakes" aria-hidden="true">
-          <span class="snowflake">
-            ❅
-          </span>
-          <span class="snowflake">
-            ❅
-          </span>
-          <span class="snowflake">
-            ❆
-          </span>
-          <span class="snowflake">
-            ❄
-          </span>
-          <span class="snowflake">
-            ❅
-          </span>
-          <span class="snowflake">
-            ❆
-          </span>
-          <span class="snowflake">
-            ❄
-          </span>
-          <span class="snowflake">
-            ❅
-          </span>
-          <span class="snowflake">
-            ❆
-          </span>
-          <span class="snowflake">
-            ❄
-          </span>
+          <span class="snowflake">❅</span>
+          <span class="snowflake">❅</span>
+          <span class="snowflake">❆</span>
+          <span class="snowflake">❄</span>
+          <span class="snowflake">❅</span>
+          <span class="snowflake">❆</span>
+          <span class="snowflake">❄</span>
+          <span class="snowflake">❅</span>
+          <span class="snowflake">❆</span>
+          <span class="snowflake">❄</span>
         </div>
         <header class="site-navigation">
           <a href="/" class="logo"
@@ -56,7 +37,6 @@
           </label>
           <div class="background">&nbsp;</div>
 
-          <!-- dropdown nav -->
           <nav class="nav">
             <ul class="list">
               <li class="item"><a class="link" href="#"> Home </a></li>
@@ -67,20 +47,10 @@
           </nav>
           <div class="main-site-menu">
             <nav class="main-nav">
-              <ul class="main-nav-list">
-                <li class="main-nav-item">
-                  <a class="main-nav-item-link" href="#"> Main </a>
-                </li>
-                <li class="main-nav-item">
-                  <a class="main-nav-item-link" href="#"> About </a>
-                </li>
-                <li class="main-nav-item">
-                  <a class="main-nav-item-link" href="#"> Products </a>
-                </li>
-                <li class="main-nav-item">
-                  <a class="main-nav-item-link" href="#"> Contacts </a>
-                </li>
-              </ul>
+              <a href="#"><span data-hover="Main">Main</span></a>
+              <a href="#"><span data-hover="About">About</span></a>
+              <a href="#"><span data-hover="Products">Products</span></a>
+              <a href="#"><span data-hover="Contacts">Contacts</span></a>
             </nav>
           </div>
         </header>
@@ -89,17 +59,18 @@
           <h2 class="main-section-subtitle">Lorem ipsum descripsum</h2>
           <button type="button" class="main-btn">Call to action</button>
         </div>
-      
-        <div class="big-snowflake"></div>
-        <div id="sparkling-stars">
 
-        </div>
+        <div class="big-snowflake"></div>
+        <div id="sparkling-stars"></div>
         <div class="hidden message-container" id="message">
           <p class="hidden-text">
             How how how !!! Like it? <br />
             Scroll down for more !
           </p>
         </div>
+        <a href="#section-2" class="anchor-arrow"
+          ><img src="./assets/img/Arrow 2.png"
+        /></a>
         <div class="image-container">
           <img src="assets/img/dedcoca-big.png" />
         </div>
@@ -111,50 +82,58 @@
           </h2>
           <p class="section-2-subtitle">Choose your present:</p>
           <ul class="present-container">
-            <li >
+            <li>
               <button type="button" id="1" class="present-container-button">
-              <img
-                src="./assets/img/new-year-sock 1 (1).png"
-                alt="new year gifts"
-              />
-            </button>
+                <img
+                  src="./assets/img/new-year-sock 1 (1).png"
+                  alt="new year gifts"
+                />
+              </button>
             </li>
-
             <li>
               <button type="button" id="2" class="present-container-button">
-              <img src="./assets/img/caps-2 1.png" alt="new year gifts" />
-            </button>
+                <img src="./assets/img/caps-2 1.png" alt="new year gifts" />
+              </button>
             </li>
             <li>
               <button type="button" id="3" class="present-container-button">
-              <img src="./assets/img/new-year-bag 1.png" alt="new year gifts" />
-            </button>
+                <img
+                  src="./assets/img/new-year-bag 1.png"
+                  alt="new year gifts"
+                />
+              </button>
             </li>
           </ul>
         </div>
         <div class="present-display">
           <img src="./assets/img/new-year-sock 2.png" alt="new year gift" />
-          <h4 class="present-title">Best sock ever</h4>
-          <p class="present-text">
-            Reuglar sock have no present inside Lorem Ipsum is simply dumm y
-            text of the printing and types etting industry. Lorem
-          </p>
+          <div class="present-text-wrapper">
+            <h4 class="present-title">Best sock ever</h4>
+            <p class="present-text">
+              Reuglar sock have no present inside Lorem Ipsum is simply dumm y
+              text of the printing and types etting industry. Lorem
+            </p>
+          </div>
         </div>
         <div class="present-display">
           <img src="./assets/img/caps-2 1.png" alt="new year gift" />
-          <h4 class="present-title">Best Cap ever</h4>
-          <p class="present-text">
-            Fantastic new Year cap have no present inside Lorem Ipsum is simply dumm y
-            text of the printing and types etting industry.
-          </p>
+          <div class="present-text-wrapper">
+            <h4 class="present-title">Best Cap ever</h4>
+            <p class="present-text">
+              Fantastic new Year cap have no present inside Lorem Ipsum is
+              simply dumm y text of the printing and types etting industry.
+            </p>
+          </div>
         </div>
         <div class="present-display">
           <img src="./assets/img/new-year-bag 1.png" alt="new year gift" />
-          <h4 class="present-title">Best Bag ever</h4>
-          <p class="present-text">
-            Super red bag have no present inside Lorem Ipsum is simply dumm y
-            text of the printing and types etting industry.
-          </p>
+          <div class="present-text-wrapper">
+            <h4 class="present-title">Best Bag ever</h4>
+            <p class="present-text">
+              Super red bag have no present inside Lorem Ipsum is simply dumm y
+              text of the printing and types etting industry.
+            </p>
+          </div>
         </div>
       </section>
       <section id="section-3">
