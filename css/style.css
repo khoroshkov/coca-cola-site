@@ -1135,7 +1135,17 @@ img.glitter-star {
     left: 180px;
   }
 
+  #section-2 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .section-2-title {
+    padding-right: 30px;
+  }
+
   .present-container {
+    justify-content: space-around;
     padding: 0 120px 0 10px;
   }
 
