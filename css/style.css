@@ -12,6 +12,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--main-bg-color);
   font-family: var(--main-font), sans-serif;
@@ -345,7 +349,7 @@ img.glitter-star {
 .snowflake {
   position: fixed;
   top: -10%;
-  z-index: 9999;
+  z-index: 9;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -852,11 +856,21 @@ img.glitter-star {
   }
 
   .site-navigation {
+    padding-top: 15px;
     padding-bottom: 15px;
   }
 
   .background {
     top: 8%;
+  }
+
+  .main-section-info {
+    padding-left: 160px;
+    padding-top: 150px;
+  }
+
+  .main-btn {
+    margin: 0;
   }
 
   .main-section-subtitle {
@@ -942,26 +956,22 @@ img.glitter-star {
     width: 400px;
   }
 
+  .main-section-info {
+    padding-top: 253px;
+  }
+
   .main-section-title {
     font-size: 72px;
-    padding-left: 150px;
   }
 
   .main-section-subtitle {
     font-size: 38px;
-    padding-left: 150px;
   }
 
   .image-container {
     align-self: flex-end;
     width: 785px;
     height: auto;
-  }
-
-  .main-section-info {
-    position: absolute;
-    top: 20%;
-    z-index: 2;
   }
 
   #section-2 {
@@ -1057,6 +1067,14 @@ img.glitter-star {
 }
 
 @media screen and (min-width: 1200px) {
+  #section-1 {
+    flex-direction: row;
+  }
+
+  .main-section-info {
+    top: 253px;
+  }
+
   .button:hover {
     width: 83px;
     height: 83px;
@@ -1066,6 +1084,10 @@ img.glitter-star {
     width: 500px;
   }
 
+  .list {
+    top: 45%;
+  }
+
   .hidden {
     display: none;
   }
@@ -1073,10 +1095,9 @@ img.glitter-star {
   .message-container {
     width: 220px;
     height: 166px;
-    margin: auto;
-    position: relative;
+    position: absolute;
     top: 50%;
-    left: 10%;
+    left: 54%;
     z-index: -1;
     background: url("../assets/img/message-img.png");
     background-size: cover;
