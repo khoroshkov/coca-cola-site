@@ -1,12 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Risque&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 :root {
   --main-accent-color: #d02b2b;
   --main-bg-color: #141429;
   --main-font: "Risque";
   --second-font: "Roboto";
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Risque&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 * {
   box-sizing: border-box;
@@ -18,7 +18,7 @@ html {
 
 body {
   background-color: var(--main-bg-color);
-  font-family: var(--main-font), sans-serif;
+  font-family: var(--main-font), "Risque", sans-serif;
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -265,7 +265,7 @@ img.glitter-star {
   width: 186px;
   height: 44px;
   margin: 0 auto;
-  font-family: var(--second-font);
+  font-family: var(--second-font), "Roboto", sans-serif;
   font-size: 16px;
   line-height: 19px;
   background-color: transparent;
@@ -461,7 +461,7 @@ img.glitter-star {
 }
 
 .present-text {
-  font-family: var(--second-font), sans-serif;
+  font-family: var(--second-font), "Roboto", sans-serif;
   padding-left: 15px;
   margin-bottom: 34px;
 }
@@ -588,7 +588,7 @@ img.glitter-star {
 
 .form-container input::placeholder {
   color: #fff;
-  font-family: var(--second-font), sans-serif;
+  font-family: var(--second-font), "Roboto", sans-serif;
   opacity: 0.8;
   font-size: 20px;
   padding-left: 20px;
@@ -620,7 +620,7 @@ img.glitter-star {
 }
 
 .custom-select span {
-  font-family: var(--second-font), sans-serif;
+  font-family: var(--second-font), "Roboto", sans-serif;
   font-size: 20px;
   opacity: 0.8;
 }
@@ -663,7 +663,7 @@ img.glitter-star {
   position: relative;
   display: block;
   padding-left: 20px;
-  font-family: var(--second-font), sans-serif;
+  font-family: var(--second-font), "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 300;
   color: #3b3b3b;
@@ -717,7 +717,7 @@ img.glitter-star {
 }
 
 .checkbox-label {
-  font-family: var(--second-font), sans-serif;
+  font-family: var(--second-font), "Roboto", sans-serif;
   font-size: 18px;
   padding-left: 20px;
   position: relative;
